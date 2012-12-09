@@ -1,4 +1,4 @@
-== Welcome to Travelr
+<h1>Welcome to Travelr</h1>
 
 Travelr is my first application build with Ruby on Rails. I have learned to build this app through Mattan Griffel's Teach Yourself to Code: One Month Rails.
 
