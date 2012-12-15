@@ -1,10 +1,14 @@
 <% if user_signed_in? %>
 
+<div class="center unit">
+
+<%= image_tag ("construction.gif"), class: 'main-img' %>
+
 <h1>Welcome fellow Travelr</h1>
 
 <h2>The site is currently under construction. Please check back soon!</h2>
 
-<%= image_tag ("construction.jpeg")%>
+</div>
 
 <% else %>
 
@@ -21,6 +25,7 @@
 
     <%= link_to "Sign up now!", new_user_registration_path, 
                                 class: "btn btn-large btn-primary" %>
+                                
 </div>
 
 <% end %>
